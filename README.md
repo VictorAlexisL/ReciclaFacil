@@ -1,9 +1,4 @@
 ﻿# DescarteCerto
-# Um site, sobre o descarte  de embalagens plásticas e sua importância para o meio ambiente. 
-# O site tera uma tela inicial sobre o projeto, sua proposta e o acesso do usuarios#
-# Telas 2 e 3 dsão as de cadastro dos usuarios e cadastros de parceiros
-# Tela 04  com os pontos de coletas, sendo feito a busca por local de interesse do usuario.
-# DescarteCerto
 
 ## Sobre o projeto
 Um site sobre o descarte de materiais recicláveis e sua importância para o meio ambiente. 
@@ -19,7 +14,7 @@ Tela 5 terá o perfil do usuário, quantidade de moedas verdes acumuladas e reco
 
 Tela 6 terá a busca e os resultados com os catadores e para retirar os reciclaveis
 
-# Proposta do site
+## Proposta do site
 
 A proposta do site  e a conscientização da comunidade na separação e desacrte correto de resíduos, identificando  pontos de coletas de materias reciclaveis e indicando catadores que podem realizar a coleta.
 
