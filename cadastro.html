@@ -61,18 +61,68 @@
         <br>
         <input id="cpf" type="text" required>
       </fieldset>
+      <input type="checkbox">
+      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
+      <br>
       <input type="submit" value="Enviar">
     </form>
 
     
     <!-- Formulário de cadastro de coletores-->
 
-    <form id="cadastro-coletor"></form>
+    <form id="cadastro-coletor">
+      <fieldset id="dados-pessoais">
+        <legend>Dados pessoais</legend>
+
+        <label for="nome">Nome completo:</label>
+        <br>
+        <input id="name" type="text" required>
+        <br>
+        
+        <br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input id="email" type="email" required>
+        <br>
+        
+        <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
+        o dado para padronizar no banco de dados posteriormente-->
+        <br>
+        <label for="cpf">CPF:</label>
+        <br>
+        <input id="cpf" type="text" required>
+      </fieldset>
+        
+      <fieldset id="coleta">
+        <legend>Coleta</legend>
+        Materiais coletados:
+        <br>
+        <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
+        <br>
+        <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
+        <br>
+        <input type="checkbox" value="papel"><label for="papel">Papel</label>
+        <br>
+        <input type="checkbox" value="metal"><label for="metal">Metal</label>
+        <br>
+        <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
+        <br>
+        <br>
+        <label for="regiao">Região atendida:</label>
+      </fieldset>
+
+      <input type="checkbox">
+      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
 
 
     <!-- Formulário de cadastro de pontos de coleta-->
 
-    <form id="cadastro-pontodecoleta"></form>
+    <form id="cadastro-pontodecoleta">
+      
+    </form>
 
   </main>
 
