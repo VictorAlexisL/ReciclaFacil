@@ -12,7 +12,7 @@
 <body>
   <header>
     <img alt="Logo" src="imagens/Recicla Fácil. Logo.png">
-    <h1>ReciclaFácil</h1>
+    <h1>Recicle Fácil</h1>
   </header>
 
   <nav>
@@ -26,17 +26,71 @@
     </ul>
   </nav>
 
+  <!--Descrição inicial e imagem principal-->
   <section>
-    <!--Caixa de busca-->
-    <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Encontre um ponto de coleta"> 
-        <a class="serarch-btn" href="#"></a>
-            <i class="fas fa-search"></i>
-        <!--O restante da programação da caixa de busca é feita em css-->
+    <div>
+      <h1>Pontos de Coleta</h1>
+      <p>
+        Contamos com a sua parceria para expandir essa iniciativa e transformar a maneira como lidamos com o descarte
+        de materiais recicláveis. Junte-se a nós e faça parte dessa jornada de mudança!
+      </p>
+    </div>
+    <div>
+      <img src="imagem_pontos_de_coleta" alt="imagem_principal">
+    </div>
+  </section>
+
+  <!--Instruções para Busca Pontos de Coleta-->
+  <section>
+    <div>
+      <h1>Como encontrar um ponto de coleta?</h1>
+    </div>
+    <div>
+      <ol>
+        <li>Inicie a pesquisa informando o estado e a cidade onde deseja encontrar um ponto de coleta.</li>
+        <li> Informe o tipo de material que deseja descartar.</li>
+        <li>Clique no botão pesquisar</li>
+        <li>Visualize os resultados da pesquisa no campo resultados.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!--Busca Pontos de coleta-->
+  <section>
+    <h1>ENCONTRE AQUI</h1>
+    <form action="busca.pontos" method="get" autocomplete="on">
+      <div>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="est">
+          <option value="">--Escolha--</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </select>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cid" name="cidade"> <br>
+
+        <label for="materiais">Tipo de material:</label>
+        <select name="materiais" id="mat">
+          <option value="">--Escolha--</option>
+          <option value="papel">Papel</option>
+          <option value="metal">metal</option>
+          <option value="plast">plástico</option>
+          <option value="vidro">Vidro</option>
+          <option value="organ">Orgânico</option>
+          <option value="eletr">Eletrônicos</option>
+        </select> <br>
+        <input type="submit" value="Pesquisar">
+      </div>
+    </form>
     </div>
 
     <!--Lista com o resultado da pesquisa-->
     <div>
+      <h2>Resultado</h2>
       <ul>
         <li>Nome: </li>
         <li>Endereço: </li>
@@ -44,7 +98,7 @@
       </ul>
     </div>
 
-    <!--Imagem da fachada da empresa parceira (ou geolocalização)-->
+    <!--Imagem da fachada da empresa parceira (ou geolocalização...)-->
     <div>
       <img src="./imagens/imagem_mapa.jpg" alt="mapa">
     </div>
