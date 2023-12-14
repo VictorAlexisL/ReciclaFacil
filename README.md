@@ -1,4 +1,4 @@
-﻿# ReciclaFácil
+﻿# RecicleFácil
 
 ## Sobre o projeto:
 Um site sobre o descarte de materiais recicláveis e sua importância para o Meio Ambiente. 
