@@ -47,15 +47,18 @@
         <input id="name" type="text" required>
         <br>
         
-        <br>
         <label for="email">E-mail:</label>
         <br>
         <input id="email" type="email" required>
         <br>
+
+        <label for="telefone">Telefone:</label>
+        <br>
+        <input id="telefone" type="tel" required>
+        <br>
         
         <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
         o dado para padronizar no banco de dados posteriormente-->
-        <br>
         <label for="cpf">CPF:</label>
         <br>
         <input id="cpf" type="text" required>
@@ -75,18 +78,21 @@
 
         <label for="nome">Nome completo:</label>
         <br>
-        <input id="name" type="text" required>
+        <input id="name" type="text" required>        
         <br>
-        
-        <br>
+
         <label for="email">E-mail:</label>
         <br>
         <input id="email" type="email" required>
         <br>
         
+        <label for="telefone">Telefone:</label>
+        <br>
+        <input id="telefone" type="tel" required>
+        <br>
+
         <!-- CPF: Será recebido input como texto, usaremos Regex no JavaScript para validar e formatar
         o dado para padronizar no banco de dados posteriormente-->
-        <br>
         <label for="cpf">CPF:</label>
         <br>
         <input id="cpf" type="text" required>
@@ -107,7 +113,12 @@
         <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
         <br>
         <br>
-        <label for="regiao">Região atendida:</label>
+        <label for="cep">CEP:</label>
+        <br>
+        <input type="text" id="cep">
+        <br>
+        <label for="raio">Raio atendido em km:</label>
+        <input type="number" id="raio">
       </fieldset>
 
       <input type="checkbox">
@@ -120,7 +131,40 @@
     <!-- Formulário de cadastro de pontos de coleta-->
 
     <form id="cadastro-pontodecoleta">
-      
+      <fieldset>
+        <legend>Dados do local</legend>
+
+        <label for="nome">Nome do ponto de coleta:</label>
+        <br>
+        <input id="name" type="text" required>        
+        <br>
+
+        <label for="endereco">Endereço:</label>
+        <br>
+        <input id="endereco" type="text">
+        <br>
+
+        <label for="horario">Horário de funcionamento:</label>
+        <br>
+        <input id="horario" type="text">
+        <br>
+
+        Materiais coletados:
+        <br>
+        <input type="checkbox" value="plastico"><label for="plastico">Plástico</label>
+        <br>
+        <input type="checkbox" value="vidro"><label for="vidro">Vidro</label>
+        <br>
+        <input type="checkbox" value="papel"><label for="papel">Papel</label>
+        <br>
+        <input type="checkbox" value="metal"><label for="metal">Metal</label>
+        <br>
+        <input type="checkbox" value="eletronicos"><label for="eletronicos">Eletrônicos</label>
+      </fieldset>
+      <input type="checkbox">
+      <label for="termos-de-uso">Declaro que li e concordo com os Termos de Uso</label>
+      <br>
+      <input type="submit" value="Enviar">
     </form>
 
   </main>
