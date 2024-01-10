@@ -1,0 +1,25 @@
+
+nav {
+    background-color: chartreuse;
+    display: flex;
+    justify-content:space-between;
+    padding: 16px;
+    margin-bottom: 30px;
+    height: 100px;
+    
+}
+
+ footer {
+    background-color: chartreuse;
+    display: flex;
+    height: 80px;
+    padding: 14px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:hover{
+    color: red;
+ }
